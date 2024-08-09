@@ -23,3 +23,57 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.navigation {
+  font-size: medium;
+}
+
+.feedback-form {
+  max-width: 360px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  color: #663939;
+}
+
+.feedback-form textarea {
+  max-width: 360px;
+  height: 80px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding: 8px 15px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 95px;
+  background: #f1d2d2;
+  border: #663939;
+  cursor: pointer;
+  color: #922d2d;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
