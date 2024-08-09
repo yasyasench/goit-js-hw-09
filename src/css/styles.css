@@ -66,10 +66,13 @@ button {
   border-radius: 8px;
   padding: 8px 16px;
   min-width: 95px;
-  background: #f1d2d2;
-  border: #663939;
+  background: #4E75FF;
+  border: none;
   cursor: pointer;
-  color: #922d2d;
+  color: #FFFFFF;
+}
+button:hover{
+  background: #6C8CFF;
 }
 
 .ul {
